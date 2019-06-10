@@ -31,5 +31,10 @@ namespace MyWeb.Modules
                 WebMsgBox.Show(ex.Message);
             }
         }
+
+        protected void rptMovie_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+
+        }
     }
 }

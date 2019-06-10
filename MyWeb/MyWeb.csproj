@@ -19,6 +19,8 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -92,6 +94,9 @@
     <Content Include="Admin\Modules\uc_Slide.ascx" />
     <Content Include="Admin\Modules\uc_TypeFilm.ascx" />
     <Content Include="App_Data\BookingTicket.mdf" />
+    <Content Include="App_Data\BookingTicket_log.ldf">
+      <DependentUpon>BookingTicket.mdf</DependentUpon>
+    </Content>
     <Content Include="App_Themes\Admin\images\add.png" />
     <Content Include="App_Themes\Admin\images\asc.gif" />
     <Content Include="App_Themes\Admin\images\back.png" />

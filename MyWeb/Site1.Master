@@ -142,7 +142,7 @@
                                             <asp:Image ID="Imagethumb" runat="server" width="40" height="50" ImageUrl='<%# Eval("Picture") %>' CssClass="thumb" />
                                             <div class="name">
                                                 <asp:HyperLink ID="hlNameFilm" runat="server" Text='<%# Eval("NameF") %>' NavigateUrl='<%# String.Format("~/Detail.aspx?&id={0}", Eval("FilId")) %>'></asp:HyperLink>
-                                                <div style="font-size: 11px; font-style: italic; font-weight: normal"><asp:Label runat="server" Text='<%# Eval("View") %>' ID="lblView"></asp:Label> View</div>
+                                                <%--<div style="font-size: 11px; font-style: italic; font-weight: normal"><asp:Label runat="server" Text='<%# Eval("View") %>' ID="lblView"></asp:Label> View</div>--%>
                                             </div>
                                         </a>
                                     </li>
